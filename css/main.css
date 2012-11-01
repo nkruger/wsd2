@@ -2,3 +2,19 @@
 font-family: 'Arvo', serif;
 font-family: 'Cantarell', sans-serif;
 font-family: 'Playfair Display SC', serif;*/
+
+body{
+	font-family: "Cantarell", sans-serif;
+}
+
+h1{
+	font-family: "Arvo", serif;
+}
+
+#tinytown_h1{
+	font-family: "Playfair Display SC", serif;
+}
+
+#christmas_h1{
+	font-family: "Molle", cursive;
+}

@@ -145,3 +145,27 @@ nav ul li a:visited{
 #vol_signup_cta ul{
 	list-style-type: circle;
 }
+
+/*gallery ------------------------*/
+
+#gallery_lastyear ul li{
+	float: left;
+}
+
+#gallery_lastyear ul{
+	list-style-type: none;
+}
+
+#gallery_lastyear{
+	overflow: hidden;
+}
+
+.odd_img{
+	clear: both;
+	float: left;
+	margin: 6.25% 6.25% 6.25% 12.5%;
+}
+
+.even_img{
+	margin: 6.25% 12.5% 6.25% 6.25%;
+}

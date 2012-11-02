@@ -28,6 +28,14 @@ h1{
 	color: rgb(255, 255, 225);
 }
 
+p{
+	margin: 1.2em;
+}
+
+h1, h2, h3, h4{
+	margin: 0 1em;
+}
+
 #tinytown_h1{
 	font-family: "Playfair Display SC", serif;
 	color: rgb(255, 255, 215);
@@ -61,12 +69,25 @@ nav{
 
 nav ul{
 	width: 100%;
-	background-color: rgb(255, 255, 215);
+	background-color: rgb(90, 0, 5);
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
 	margin-bottom: 0;
 }
+
+#active_nav_tab{
+	background-color: rgb(255, 255, 215);
+}
+
+nav ul li a:link{
+	color: rgb(255, 255, 215);
+}
+
+#active_nav_tab a:link{
+	color: rgb(5, 45, 0);
+}
+
 nav ul li{
 	width: 33.333333333333%;
 	text-align: center;
@@ -74,7 +95,7 @@ nav ul li{
 	height: 50px;
 	float: left;	
 }
-nav a:link{
+nav ul li a:link{
 	display: block;
 	color; rgb(5, 45, 0);
 	width: 100%;
@@ -83,19 +104,29 @@ nav a:link{
 	text-align: center;
 	text-decoration: none;
 }
-nav a:hover{
-	background-color: #fff;
+nav ul li a:hover{
+	background-color: rgb(255, 255, 215);
 	color: rgb(90, 0, 5);
 	text-decoration: underline;
 }
-nav a:active{
+nav ul li a:active{
 	color: black
 }
-nav a:visited{
+nav ul li a:visited{
 	color: rgb(255, 0, 255);
 }
 
-#intro_home, #group_reg_cta, #vol_signup_cta, .lastyear_highlights, footer{
+#intro_home, .lastyear_highlights, footer{
 	background-color: rgb(255, 255, 215);
-	padding: 1em;
+}
+
+#group_reg_cta{
+	background-color: rgba(255, 255, 215, 0.75);
+	border: 1px solid rgb(255, 255, 215);
+}
+
+#vol_signup_cta{
+	background-color: rgb(90, 0, 5);
+	border: 1px solid rgb(255, 255, 215);
+	color: rgb(255, 255, 215);
 }

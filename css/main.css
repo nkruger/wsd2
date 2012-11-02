@@ -3,6 +3,11 @@ font-family: 'Arvo', serif;
 font-family: 'Cantarell', sans-serif;
 font-family: 'Playfair Display SC', serif;*/
 
+/* colors --------------------
+rgb(5, 45, 0) darkgreen
+rgb(90, 0, 5) red
+*/
+
 body{
 	font-family: "Cantarell", sans-serif;
 	background-color: rgb(5, 45, 0);
@@ -14,7 +19,7 @@ body{
 
 header{
 	background-color: rgb(90, 0, 5);
-	border: 1px solid rgb(255, 255, 255);
+	border: 1px solid rgb(255, 255, 215);
 	padding: 0em;
 }
 
@@ -25,14 +30,14 @@ h1{
 
 #tinytown_h1{
 	font-family: "Playfair Display SC", serif;
-	color: rgb(255, 255, 255);
+	color: rgb(255, 255, 215);
 	font-size: 6em;
 	line-height: 0.5em;
 }
 
 #christmas_h1{
 	font-family: "Molle", cursive;
-	color: rgb(255, 255, 255);
+	color: rgb(255, 255, 215);
 	font-size: 3.5em;
 	line-height: 0.6em;
 }
@@ -56,7 +61,7 @@ nav{
 
 nav ul{
 	width: 100%;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 215);
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
@@ -69,8 +74,9 @@ nav ul li{
 	height: 50px;
 	float: left;	
 }
-nav a{
+nav a:link{
 	display: block;
+	color; rgb(5, 45, 0);
 	width: 100%;
 	height: 50px;
 	line-height: 50px;
@@ -79,12 +85,17 @@ nav a{
 }
 nav a:hover{
 	background-color: #fff;
-	color: #161;
+	color: rgb(90, 0, 5);
 	text-decoration: underline;
 }
 nav a:active{
 	color: black
 }
 nav a:visited{
-	color: #5ff;
+	color: rgb(255, 0, 255);
+}
+
+#intro_home, #group_reg_cta, #vol_signup_cta, .lastyear_highlights, footer{
+	background-color: rgb(255, 255, 215);
+	padding: 1em;
 }

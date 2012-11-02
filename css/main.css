@@ -130,22 +130,46 @@ nav ul li a:visited{
 
 #intro_home, .lastyear_highlights, footer{
 	background-color: rgb(255, 255, 215);
+	-moz-column-count: 3;
 }
 
 #group_reg_cta{
 	background-color: rgba(255, 255, 215, 0.75);
 	border: 1px solid rgb(255, 255, 215);
+	padding-bottom: 1.25em;
 }
 
 #vol_signup_cta{
 	background-color: rgb(90, 0, 5);
 	border: 1px solid rgb(255, 255, 215);
 	color: rgb(255, 255, 215);
+	padding-bottom: 1.25em;
 }
 
 #vol_signup_cta ul{
 	list-style-type: circle;
 }
+
+.cta_button{
+	background-color: rgb(255, 255, 215);
+	background: -moz-linear-gradient(top, yellow 0%, orange 55%, #DEF 130%);
+	font-size: 1.2em;
+	width: 210px;
+	height: 40px;
+	line-height: 40px;
+	margin: auto;
+	text-align: center;
+	border: 1px solid #bb0;
+	border-radius: 15px;
+}
+.cta_button a{
+	color: #020;
+	text-decoration: none;
+}
+.cta_button a:hover{
+	color: #383;
+}
+
 
 /*gallery ------------------------*/
 

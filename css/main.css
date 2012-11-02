@@ -152,22 +152,23 @@ nav ul li a:visited{
 
 .cta_button{
 	background-color: rgb(255, 255, 215);
-	background: -moz-linear-gradient(top, yellow 0%, orange 55%, #DEF 130%);
+/*	background: -moz-linear-gradient(top, yellow 0%, orange 55%, #DEF 130%);*/
+	background: -moz-linear-gradient(top, rgb(255, 255, 215) 0%, rgb(100, 145, 135) 55%, #DEF 130%);
 	font-size: 1.2em;
 	width: 210px;
 	height: 40px;
 	line-height: 40px;
 	margin: auto;
 	text-align: center;
-	border: 1px solid #bb0;
+	border: 1px solid rgb(240, 240, 200);
 	border-radius: 15px;
 }
 .cta_button a{
-	color: #020;
+	color: rgb(90, 0, 5);
 	text-decoration: none;
 }
 .cta_button a:hover{
-	color: #383;
+	color: rgb(0, 45, 35);
 }
 
 
@@ -175,7 +176,7 @@ nav ul li a:visited{
 
 #gallery_lastyear ul li{
 	float: left;
-	margin: 7.5%;
+	margin: 7%;
 }
 
 #gallery_lastyear ul{
@@ -192,4 +193,9 @@ nav ul li a:visited{
 }
 
 .even_img{
+	float: right;
+}
+
+footer{
+	clear: both;
 }

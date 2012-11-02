@@ -18,22 +18,20 @@ body{
 }
 
 header{
+	background-image: url("../images/xmas_flower_background.jpg");
 	background-color: rgb(90, 0, 5);
 	border: 1px solid rgb(255, 255, 215);
 	padding: 0em;
-}
-
-h1{
-	font-family: "Arvo", serif;
-	color: rgb(255, 255, 225);
 }
 
 p{
 	margin: 1.2em;
 }
 
-h1, h2, h3, h4{
-	margin: 0 1em;
+h2, h3, h4{
+	font-family: "Arvo", serif;
+	text-shadow: 1px 1px 1px #002;
+	margin: 0.5em 0.8em 0;
 }
 
 #tinytown_h1{
@@ -41,6 +39,7 @@ h1, h2, h3, h4{
 	color: rgb(255, 255, 215);
 	font-size: 6em;
 	line-height: 0.5em;
+	text-shadow: 1px 1px 1px #002;
 }
 
 #christmas_h1{
@@ -48,6 +47,7 @@ h1, h2, h3, h4{
 	color: rgb(255, 255, 215);
 	font-size: 3.5em;
 	line-height: 0.6em;
+	text-shadow: 1px 1px 1px #002;
 }
 
 #snowman_logo{
@@ -60,6 +60,11 @@ h1, h2, h3, h4{
 	width: 62.5;
 	margin-right: 2.083333333333%
 	text-align: center;
+}
+
+/*anchor colors --------------------------------------------*/
+a:link{
+	color: rgb(75, 155, 125);
 }
 
 /*GLobal nav----------------------------------------------- */
@@ -116,6 +121,8 @@ nav ul li a:visited{
 	color: rgb(255, 0, 255);
 }
 
+/*content styling -------------------------------*/
+
 #intro_home, .lastyear_highlights, footer{
 	background-color: rgb(255, 255, 215);
 }
@@ -129,4 +136,8 @@ nav ul li a:visited{
 	background-color: rgb(90, 0, 5);
 	border: 1px solid rgb(255, 255, 215);
 	color: rgb(255, 255, 215);
+}
+
+#vol_signup_cta ul{
+	list-style-type: circle;
 }

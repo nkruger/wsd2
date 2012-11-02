@@ -6,11 +6,16 @@ font-family: 'Playfair Display SC', serif;*/
 body{
 	font-family: "Cantarell", sans-serif;
 	background-color: rgb(5, 45, 0);
+	font-size: 100%;
+	line-height: 1.5;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 header{
 	background-color: rgb(90, 0, 5);
 	border: 1px solid rgb(255, 255, 255);
+	padding: 0em;
 }
 
 h1{
@@ -20,9 +25,66 @@ h1{
 
 #tinytown_h1{
 	font-family: "Playfair Display SC", serif;
-	color: rbg(255, 255, 255);
+	color: rgb(255, 255, 255);
+	font-size: 6em;
+	line-height: 0.5em;
 }
 
 #christmas_h1{
 	font-family: "Molle", cursive;
+	color: rgb(255, 255, 255);
+	font-size: 3.5em;
+	line-height: 0.6em;
+}
+
+#snowman_logo{
+	float: left;
+	width: 31.25%;
+	margin: 1.041666666667% 2.083333333333%;
+}
+
+#logo_text{
+	width: 62.5;
+	margin-right: 2.083333333333%
+	text-align: center;
+}
+
+/*GLobal nav----------------------------------------------- */
+nav{
+	clear: both;
+}
+
+nav ul{
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+nav ul li{
+	width: 33.333333333333%;
+	text-align: center;
+	line-height: 2.5em;
+	height: 50px;
+	float: left;	
+}
+nav a{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: #fff;
+	color: #161;
+	text-decoration: underline;
+}
+nav a:active{
+	color: black
+}
+nav a:visited{
+	color: #5ff;
 }

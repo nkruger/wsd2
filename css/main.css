@@ -5,14 +5,22 @@ font-family: 'Playfair Display SC', serif;*/
 
 body{
 	font-family: "Cantarell", sans-serif;
+	background-color: rgb(5, 45, 0);
+}
+
+header{
+	background-color: rgb(90, 0, 5);
+	border: 1px solid rgb(255, 255, 255);
 }
 
 h1{
 	font-family: "Arvo", serif;
+	color: rgb(255, 255, 225);
 }
 
 #tinytown_h1{
 	font-family: "Playfair Display SC", serif;
+	color: rbg(255, 255, 255);
 }
 
 #christmas_h1{

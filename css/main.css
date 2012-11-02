@@ -67,6 +67,10 @@ a:link{
 	color: rgb(75, 155, 125);
 }
 
+a:hover{
+	color: rgb(75, 85, 175);
+}
+
 /*GLobal nav----------------------------------------------- */
 nav{
 	clear: both;

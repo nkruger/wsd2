@@ -204,9 +204,9 @@ footer{
 
 /* tablet -----------------------------------*/
 @media screen and (min-width: 780px) and (max-width: 959px) {
-	body{
+/*	body{
 		background-color: white;
-	}
+	}*/
 	
 	#tinytown_h1{
 	font-size: 5.1em;
@@ -226,9 +226,9 @@ footer{
 }
 /* mobile landscape -------------------------*/
 @media only screen and (min-width: 480px) and (max-width: 779px) {
-	body{
+/*	body{
 		background-color: yellow;
-	}
+	}*/
 	
 	#tinytown_h1{
 	font-size: 3.4em;
@@ -254,9 +254,9 @@ footer{
 }
 /* mobile portrait --------------------------*/
 @media only screen and (max-width: 479px) {
-	body{
+/*	body{
 		background-color: blue;
-	}
+	}*/
 	
 	#tinytown_h1{
 		font-size: 3em;

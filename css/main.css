@@ -58,7 +58,8 @@ h2, h3, h4{
 }
 
 #logo_text{
-	width: 62.5%;
+	float: right;
+	width: 62.5%%;
 	margin-right: 2.083333333333%;
 	text-align: center;
 }

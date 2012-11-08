@@ -128,7 +128,7 @@ nav ul li a:visited{
 
 /*content styling -------------------------------*/
 
-#intro_home, .lastyear_highlights, footer{
+#intro_home, footer{
 	background-color: rgb(255, 255, 215);
 	-moz-column-count: 3;
 }
@@ -174,9 +174,14 @@ nav ul li a:visited{
 
 /*gallery ------------------------*/
 
+.lastyear_highlights{
+	background-color: rgb(255, 255, 215);
+}
+
 #gallery_lastyear ul li{
+	display: block;
 	float: left;
-	margin: 7%;
+	margin: 1.1333333333333%;
 }
 
 #gallery_lastyear ul{
@@ -185,15 +190,6 @@ nav ul li a:visited{
 
 #gallery_lastyear{
 	overflow: hidden;
-}
-
-.odd_img{
-	clear: both;
-	float: left;
-}
-
-.even_img{
-	float: right;
 }
 
 footer{

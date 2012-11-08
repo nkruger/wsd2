@@ -215,6 +215,14 @@ footer{
 	font-size: 2.86em;
 	}
 	
+	h2{
+		font-size: 1.2em;
+	}
+	
+	h3{
+		font-size: 1em;
+	}
+	
 }
 /* mobile landscape -------------------------*/
 @media only screen and (min-width: 480px) and (max-width: 779px) {
@@ -227,6 +235,17 @@ footer{
 	}
 	#christmas_h1{
 	font-size: 1.9em;
+	}
+	
+	h2{
+		font-size: 1.1em;
+	}
+	
+	h3{
+		font-size: 0.9em;
+	}
+	p{
+		font-size: 0.8em;
 	}
 }
 /* mobile portrait --------------------------*/
@@ -251,6 +270,16 @@ footer{
 		float: none;
 		width: 100%;
 		margin: 0 auto;
+	}
+	
+	h2{
+		font-size: 1.1em;
+	}
+	h3{
+		font-size: 0.9em;
+	}
+	p{
+		font-size: 0.8em;
 	}
 	
 }

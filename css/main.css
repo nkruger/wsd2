@@ -236,9 +236,21 @@ footer{
 	}
 	
 	#tinytown_h1{
-	font-size: 3em;
+		font-size: 3em;
 	}
 	#christmas_h1{
-	font-size: 1.3em;
+		font-size: 1.3em;
 	}
+	
+	#snowman_logo{
+		visibility: hidden;
+		height: 0px;
+	}
+	#logo_text{
+		clear: left;
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
 }

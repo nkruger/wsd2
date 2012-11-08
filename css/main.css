@@ -40,7 +40,7 @@ h2, h3, h4{
 	color: rgb(255, 255, 215);
 	font-size: 6em;
 	line-height: 0.5em;
-	text-shadow: 1px 1px 1px #002;
+	text-shadow: 0.08em 0.08em 0.2em #002;
 }
 
 #christmas_h1{
@@ -48,7 +48,7 @@ h2, h3, h4{
 	color: rgb(255, 255, 215);
 	font-size: 3.5em;
 	line-height: 0.6em;
-	text-shadow: 1px 1px 1px #002;
+	text-shadow: 0.08em 0.08em 0.2em #002;
 }
 
 #snowman_logo{
@@ -59,7 +59,7 @@ h2, h3, h4{
 
 #logo_text{
 	width: 62.5;
-	margin-right: 2.083333333333%
+	margin-right: 2.083333333333%;
 	text-align: center;
 }
 

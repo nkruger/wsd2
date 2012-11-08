@@ -31,7 +31,7 @@ p{
 
 h2, h3, h4{
 	font-family: "Arvo", serif;
-	text-shadow: 1px 1px 1px #002;
+	text-shadow: 0.05em 0.05em 0.1em #002;
 	margin: 0.5em 0.8em 0;
 }
 

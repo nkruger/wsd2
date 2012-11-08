@@ -57,6 +57,10 @@ h2, h3, h4{
 	margin: 1.041666666667% 2.083333333333%;
 }
 
+#snowman_logo img{
+	max-width: 100%;
+}
+
 #logo_text{
 	float: right;
 	width: 62.5%;
@@ -203,16 +207,38 @@ footer{
 	body{
 		background-color: white;
 	}
+	
+	#tinytown_h1{
+	font-size: 5.1em;
+	}
+	#christmas_h1{
+	font-size: 2.86em;
+	}
+	
 }
 /* mobile landscape -------------------------*/
 @media only screen and (min-width: 480px) and (max-width: 779px) {
 	body{
 		background-color: yellow;
 	}
+	
+	#tinytown_h1{
+	font-size: 3.4em;
+	}
+	#christmas_h1{
+	font-size: 1.9em;
+	}
 }
 /* mobile portrait --------------------------*/
 @media only screen and (max-width: 479px) {
 	body{
 		background-color: blue;
+	}
+	
+	#tinytown_h1{
+	font-size: 3em;
+	}
+	#christmas_h1{
+	font-size: 1.3em;
 	}
 }

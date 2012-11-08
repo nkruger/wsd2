@@ -247,6 +247,10 @@ footer{
 	p{
 		font-size: 0.8em;
 	}
+	
+	#intro_home, footer{
+		-moz-column-count: 2;
+	}
 }
 /* mobile portrait --------------------------*/
 @media only screen and (max-width: 479px) {
@@ -282,4 +286,7 @@ footer{
 		font-size: 0.8em;
 	}
 	
+	#intro_home, footer{
+		-moz-column-count: 1;
+	}
 }

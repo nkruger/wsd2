@@ -188,6 +188,28 @@ nav ul li a:visited{
 	clear: both;
 }
 
+.form_button{
+	background-color: rgb(255, 255, 215);
+	background: -moz-linear-gradient(top, rgb(255, 255, 215) 0%, rgb(100, 145, 135) 55%, #DEF 130%);
+	font-size: 1em;
+	width: 150px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 28.5625%;
+	text-align: center;
+	border: 1px solid rgb(240, 240, 200);
+	border-radius: 15px;
+}
+
+.form_button a{
+	color: rgb(90, 0, 5);
+	text-decoration: none;
+}
+.form_button a:hover{
+	color: rgb(0, 45, 35);
+}
+
+
 /*gallery ------------------------*/
 
 .lastyear_highlights{

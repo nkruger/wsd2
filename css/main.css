@@ -188,6 +188,14 @@ nav ul li a:visited{
 	margin: 1.1333333333333%;
 }
 
+#gallery_lastyear ul li{
+	width: 20.833333333333%;
+}
+
+#gallery_lastyear ul li img{
+	max-width: 100%;
+}
+
 #gallery_lastyear ul{
 	list-style-type: none;
 }

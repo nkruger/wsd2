@@ -175,8 +175,27 @@ nav ul li a:visited{
 	color: rgb(0, 45, 35);
 }
 
-/*table styling ------------------*/
+/*#vol_signup_content{
+	background-color: rgb(255,255,215);
+	margin-top: 1.5625%;
+}*/
 
+/*table styling ------------------*/
+table{
+	background-color: rgb(255,255,215);
+	margin-top: 1.5625%;
+	width: 100%;
+}
+
+th{
+	border: 1px solid rgb(0, 45, 35);
+	color: rgb(90, 0, 5);
+}
+
+td{
+	border: 1px solid rgb(0, 45, 35);
+	text-indent: 1.041666666667%;
+}
 
 /*form styling -------------------*/
 .form_label{

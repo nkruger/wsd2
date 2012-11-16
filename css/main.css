@@ -143,14 +143,14 @@ nav ul li a:visited{
 #group_reg_cta{
 	background-color: rgba(255, 255, 215, 0.75);
 	border: 1px solid rgb(255, 255, 215);
-	padding-bottom: 1.25em;
+	padding-bottom: 2.5%;
 }
 
 #vol_signup_cta{
 	background-color: rgb(90, 0, 5);
 	border: 1px solid rgb(255, 255, 215);
 	color: rgb(255, 255, 215);
-	padding-bottom: 1.25em;
+	padding-bottom: 2.5%;
 }
 
 #vol_signup_cta ul{
@@ -177,11 +177,6 @@ nav ul li a:visited{
 .cta_button a:hover{
 	color: rgb(0, 45, 35);
 }
-
-/*#vol_signup_content{
-	background-color: rgb(255,255,215);
-	margin-top: 1.5625%;
-}*/
 
 /*table styling ------------------*/
 table{

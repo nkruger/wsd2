@@ -22,17 +22,18 @@ header{
 	background-image: url("../images/xmas_flower_background.jpg");
 	background-color: rgb(90, 0, 5);
 	border: 1px solid rgb(255, 255, 215);
-	padding: 0em;
+	padding: 0px;
 }
 
 p{
-	margin: 1.2em;
+	margin:  1.04166666667% 2.083333333333%;
 }
 
 h2, h3, h4{
 	font-family: "Arvo", serif;
 	text-shadow: 0.05em 0.05em 0.1em #002;
-	margin: 0.5em 0.8em 0;
+/*	margin: 0.5em 0.8em 0;*/
+	margin: 1.04166666667% 2.083333333333% 0px;
 }
 
 #tinytown_h1{
@@ -135,6 +136,8 @@ nav ul li a:visited{
 #intro_home, footer{
 	background-color: rgb(255, 255, 215);
 	-moz-column-count: 3;
+	padding: 1.04166666667% 1.5625%;
+	margin: 2.083333333333% 0px;
 }
 
 #group_reg_cta{
@@ -257,6 +260,8 @@ fieldset{
 
 .lastyear_highlights{
 	background-color: rgb(255, 255, 215);
+	margin-top: 2.08333333333%;
+	padding-top: 0.260416666667%;
 }
 
 #gallery_lastyear ul li{
